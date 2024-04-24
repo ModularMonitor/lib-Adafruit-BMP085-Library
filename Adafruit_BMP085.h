@@ -21,7 +21,7 @@
 #ifndef ADAFRUIT_BMP085_H
 #define ADAFRUIT_BMP085_H
 
-#include <Adafruit_I2CDevice.h>
+#include "../Adafruit_BusIO/Adafruit_I2CDevice.h"
 #include <Arduino.h>
 
 #define BMP085_DEBUG 0 //!< Debug mode
@@ -110,3 +110,5 @@ private:
 };
 
 #endif //  ADAFRUIT_BMP085_H
+
+#include "Adafruit_BMP085.ipp"
